@@ -1,0 +1,135 @@
+main {
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+form {
+  margin-top: 20px;
+}
+
+input[type="file"] {
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+.dicom-viewer {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.dicom-viewer h2 {
+  color: #333;
+}
+
+.dicom-viewer img {
+  max-width: 100%;
+}
+
+:root {
+  --blue: #0071ff;
+  --light-blue: #b6dbf6;
+  --dark-blue: #005dd1;
+  --grey: #f2f2f2;
+}
+
+.img-area {
+  position: relative;
+  width: 100%;
+  height: 240px;
+  background: var(--grey);
+  margin-bottom: 30px;
+  border-radius: 15px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.img-area .icon {
+  font-size: 100px;
+}
+.img-area h3 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+.img-area p {
+  color: #999;
+}
+.img-area p span {
+  font-weight: 600;
+}
+.img-area img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: 100;
+}
+.img-area::before {
+  content: attr(data-img);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-weight: 500;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+  opacity: 0;
+  transition: all 0.3s ease;
+  z-index: 200;
+}
+.img-area.active:hover::before {
+  opacity: 1;
+}
+.select-image {
+  display: block;
+  width: 40%;
+  padding: 16px 0;
+  border-radius: 15px;
+  background: rgb(68, 68, 255);
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.select-image:hover {
+  background: black;
+}

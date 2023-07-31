@@ -1,0 +1,394 @@
+
+
+
+.search-info {
+  padding: 20px;
+}
+
+.search-info img {
+  max-width: 100%;
+  height: auto;
+}
+
+.search-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.search-details {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.published-info {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #888;
+}
+
+.search-list {
+  padding: 20px;
+}
+
+.search-item {
+  margin-bottom: 20px;
+}
+
+.search-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.search-item .search-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.search-item .search-details {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.search-item .published-info {
+  margin-top: 10px;
+  font-size: 10px;
+  color: #888;
+}
+
+
+.research-stats {
+  padding: 20px;
+  background-color:#f7f8fd ;
+
+}
+
+.search-list {
+  padding: 20px;
+
+}
+
+.search-item {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+
+
+
+
+
+.dove-image {
+  max-width: 100px;
+  height: auto;
+}
+
+.dove-title {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.dove-details {
+  margin-top: 5px;
+  font-size: 14px;
+}
+main {
+  padding: 20px;
+}
+
+
+
+.swiper-container2 {
+  width: 100%;
+  padding: 20px;
+}
+
+.swiper-slide2 {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.testimonia-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10%;
+  margin-bottom: 10px;
+}
+
+.testimonia-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.testimonia-details {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.testimonia-date {
+  font-size: 12px;
+  color: #999;
+}
+
+
+
+
+
+
+
+
+h1 {
+  color: #333;
+}
+.hLatestResearch {
+  margin-top: 65px;
+  text-align: left;
+}
+h2 {
+  font-size: 28px !important;
+  text-align: center !important;
+}
+.research-item p {
+  font-size: 18px !important;
+  text-align: justify !important;
+  margin: 15px 0 15px 0;
+}
+
+h3 {
+  padding-bottom: 10;
+}
+h4 {
+  text-align: left;
+}
+a {
+  font-weight: bold;
+}
+
+.hResearchers {
+  margin-top: 25px;
+}
+.research-item {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.research-item h2 {
+  color: #333;
+  text-align: left;
+}
+.hFrequentlyAskedQuestions {
+  margin: 15;
+}
+
+.research-item p {
+  color: #666;
+  font-size: 20px;
+}
+
+/*--------------------------------------------------------------
+# Frequently Asked Questions
+--------------------------------------------------------------*/
+.faq1 .faq-list {
+  padding: 0 100px;
+}
+
+.faq1 .faq-list ul {
+  padding: 0;
+  list-style: none;
+}
+
+.faq1 .faq-list li + li {
+  margin-top: 15px;
+}
+
+.faq1 .faq-list li {
+  padding: 20px;
+  background: #fff;
+  border-radius: 4px;
+  position: relative;
+}
+
+.faq1 .faq-list a {
+  display: block;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  padding: 0 30px;
+  outline: none;
+  cursor: pointer;
+}
+
+.faq1 .faq-list .icon-help {
+  font-size: 24px;
+  position: absolute;
+  right: 0;
+  left: 20px;
+  color: #76b5ee;
+}
+
+.faq1 .faq-list .icon-show {
+  font-size: 24px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.faq1 .faq-list p {
+  margin-bottom: 0;
+  padding: 10px 0 0 0;
+}
+
+.faq1 .faq-list .icon-show {
+  display: none;
+}
+
+.faq1 .faq-list a.collapsed {
+  color: #343a40;
+}
+
+.faq1 .faq-list a.collapsed:hover {
+  color: #1977cc;
+}
+
+.faq1 .faq-list a.collapsed .icon-show {
+  display: inline-block;
+}
+
+.faq1 .faq-list a.collapsed .icon-close {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .faq1 .faq-list {
+    padding: 0;
+  }
+}
+
+/*--------------------------------------------------------------
+  # Testimonialss
+--------------------------------------------------------------*/
+section {
+  overflow: hidden;
+}
+
+.testimonials1 {
+  padding: 10px;
+  margin: 0;
+}
+.testimonials1 .testimonial-wrap {
+  padding-left: 50px;
+}
+
+.testimonials1 .testimonials-carousel,
+.testimonials1 .testimonials-slider {
+  overflow: hidden;
+}
+
+.testimonials1 .testimonial-item {
+  box-sizing: content-box;
+  padding: 5px 5px 5px 5px;
+  margin: 5px 5px;
+  min-height: 200px;
+  box-shadow: 0px 2px 12px rgba(44, 73, 100, 0.08);
+  position: relative;
+  background: #fff;
+}
+
+.testimonials1 .testimonial-item .testimonial-img {
+  width: 90px;
+  border-radius: 10px;
+  border: 6px solid #fff;
+  position: absolute;
+  left: -45px;
+}
+
+.testimonials1 .testimonial-item h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+  color: #111;
+}
+
+.testimonials1 .testimonial-item h4 {
+  font-size: 14px;
+  color: #999;
+  margin: 0;
+}
+
+.testimonials1 .testimonial-item .quote-icon-left,
+.testimonials1 .testimonial-item .quote-icon-right {
+  color: #badaf7;
+  font-size: 26px;
+}
+
+.testimonials1 .testimonial-item .quote-icon-left {
+  display: inline-block;
+  left: -5px;
+  position: relative;
+}
+
+.testimonials1 .testimonial-item .quote-icon-right {
+  display: inline-block;
+  right: -5px;
+  position: relative;
+  top: 10px;
+}
+
+.testimonials1 .testimonial-item p {
+  font-style: italic;
+  margin: 15px auto 15px auto;
+}
+
+.testimonials .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+.testimonials1 .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid #1977cc;
+}
+
+.testimonials1 .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #1977cc;
+}
+
+@media (max-width: 767px) {
+  .testimonials1 .testimonial-wrap {
+    padding-left: 0;
+  }
+
+  .testimonials1 .testimonials-carousel,
+  .testimonials1 .testimonials-slider {
+    overflow: hidden;
+  }
+
+  .testimonials1 .testimonial-item {
+    padding: 30px;
+    margin: 15px;
+  }
+
+  .testimonials1 .testimonial-item1 {
+    padding: 10px;
+    margin: 5px;
+  }
+
+  .testimonials1 .testimonial-item .testimonial-img {
+    position: static;
+    left: auto;
+  }
+}

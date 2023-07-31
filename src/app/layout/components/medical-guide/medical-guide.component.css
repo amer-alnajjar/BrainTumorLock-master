@@ -1,0 +1,139 @@
+
+
+.search-box {
+  width: 450px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.search-box input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #e1e1e1;
+  outline: none;
+  font-size: 14px;
+}
+
+.search-box input[type="text"]::placeholder {
+  color: #999;
+
+}
+.doctor-item {
+  margin-bottom: 20px;
+  align-items: center;
+}
+.doctor-details h5{
+  margin-top: 20px;
+}
+.doctor-info {
+  display: flex;
+  align-items: center;
+  word-wrap: break-word; 
+}
+
+
+.doctor-image {
+  float: left;
+  margin-right: 20px;
+}
+.doctor-image img {
+  border-radius: 20%;
+  width: 180px;
+  height: 190px;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+.doctor-info p {
+
+  font-size: 12px;
+}
+
+.contact-icons a{
+  margin-right: 6px;
+  font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.medical-directory {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.menu-item {
+  margin: 0 4px;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #eee;
+}
+
+
+.hMedicalGuide{
+  margin-top: 65px;
+  text-align: left;
+}
+
+
+.content {
+  display: none;
+  text-align: center;
+  padding: 20px;
+}
+
+.content h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.tambourine {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tambourine-item {
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+}
+
+.tambourine-item img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.tambourine-item h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.tambourine-item p {
+  margin-bottom: 5px;
+}

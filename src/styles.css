@@ -1,0 +1,31 @@
+/* You can add global styles to this file, and also import other style files */
+#goog-gt-tt {
+  display: none !important;
+}
+
+.goog-te-banner-frame {
+  display: none !important;
+}
+
+.goog-te-menu-value:hover {
+  text-decoration: none !important;
+}
+.goog-te-banner {
+  display: none !important;
+}
+.goog-te-banner-frame.skiptranslate {
+  display: none !important;
+}
+.skiptranslate {
+  display: none !important;
+}
+body {
+  top: 0 !important;
+}
+
+#google_translate_element {
+  display: none !important;
+}
+.VIpgJd-ZVi9od-aZ2wEe-wOHMyf-ti6hGc {
+  display: none !important;
+}

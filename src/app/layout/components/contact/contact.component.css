@@ -1,0 +1,7 @@
+.required {
+  color: red;
+}
+
+.error {
+  border: 1px solid red;
+}
