@@ -1,0 +1,28 @@
+<form class="mt-5" [formGroup]="addBlogsForm">
+  <h1 class=" mb-3 font-weight-normal ">Add New Blogs</h1>
+
+  <input type="text" class="form-control mb-3" formControlName="title" name="title" placeholder="Enter Title..."
+    [ngClass]="{'invalid': errorTitle?.invalid && (errorTitle?.dirty || errorTitle?.touched)}" required autofocus>
+
+  <div class="alert alert-danger" *ngIf="errorTitle?.invalid && (errorTitle?.dirty||  errorTitle?.touched)">
+    <div *ngIf="errorTitle?.errors?.['required']">Title is Required</div>
+  </div>
+
+  <textarea class="form-control mb-3 pb-5" formControlName="description" rows="10" name="description"
+    placeholder="Enter Description..."
+    [ngClass]="{'invalid': errorTitle?.invalid && (errorTitle?.dirty || errorTitle?.touched)}" required></textarea>
+
+  <div class="alert alert-danger"
+    *ngIf="errorDescription?.invalid && (errorDescription?.dirty || errorDescription?.touched)">
+    <div *ngIf="errorDescription?.errors?.['required']">Description is Required</div>
+  </div>
+
+  <input type="file" class="form-control mb-3 " (change)="getImage($event)" name=""
+    [ngClass]="{'invalid': errorImg?.invalid && (errorImg?.dirty || errorImg?.touched)}">
+
+  <div class="alert alert-danger" *ngIf="errorImg?.invalid && (errorImg?.dirty || errorImg?.touched)">
+    <div *ngIf="errorImg?.errors?.['required']">img is Required</div>
+  </div>
+
+  <button class="btn btn-lg btn-primary btn-block mb-5" (click)="addBlogs()">Add</button>
+</form>

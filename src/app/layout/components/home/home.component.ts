@@ -20,6 +20,8 @@ export class HomeComponent implements OnInit {
     this.appointmentForm = this.fb.group({
       name: [null, [Validators.required]],
       email: [null, [Validators.required, Validators.email]],
+      country: [null, [Validators.required]],
+      city: [null, [Validators.required]],
       phone: [null, [Validators.required]],
       date: [null, [Validators.required]],
       message: [null, [Validators.required]],
@@ -39,6 +41,12 @@ export class HomeComponent implements OnInit {
   }
   get errorDate() {
     return this.appointmentForm.get('date');
+  }
+  get errorcountry() {
+    return this.appointmentForm.get('country');
+  }
+  get errorcity() {
+    return this.appointmentForm.get('city');
   }
 
   get errorMessage() {

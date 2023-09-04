@@ -18,7 +18,7 @@ const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'about', component: AboutComponent },
   { path: 'contact', component: ContactComponent },
-  { path: 'latest-research', component: LatestResearchComponent },
+  { path: 'Articles and research', component: LatestResearchComponent },
   { path: 'medications', component: MedicationsComponent },
   { path: 'tumor-examination', component: TumorExaminationComponent },
   { path: 'motivational-stories', component: MotivationalStoriesComponent },
