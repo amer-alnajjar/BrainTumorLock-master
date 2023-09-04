@@ -1,6 +1,9 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+.breadcrumbs {
+  margin-top: 165px !important;
+}
 .textJustfy {
   text-align: justify;
 }
@@ -219,7 +222,7 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 10px !important;
 }
 
 /**

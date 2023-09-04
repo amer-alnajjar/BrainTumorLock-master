@@ -8,6 +8,10 @@ import { RouterModule } from '@angular/router';
 import { AdminComponent } from './components/admin/admin.component';
 import { CommunicationRequestsComponent } from './components/communication-requests/communication-requests.component';
 import { HttpClientModule } from '@angular/common/http';
+import { BlogsComponent } from './components/blogs/list-blogs/blogs.component';
+import { AddBlogsComponent } from './components/blogs/add-blogs/add-blogs.component';
+import { UbdateBlogsComponent } from './components/blogs/ubdate-blogs/ubdate-blogs.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -15,7 +19,11 @@ import { HttpClientModule } from '@angular/common/http';
     AppointmentComponent,
     AdminComponent,
     CommunicationRequestsComponent,
+    BlogsComponent,
+    AddBlogsComponent,
+    UbdateBlogsComponent,
   ],
-  imports: [CommonModule, AdminDashboardRoutingModule, HttpClientModule],
+  imports: [CommonModule, AdminDashboardRoutingModule, HttpClientModule, FormsModule,
+    ReactiveFormsModule,],
 })
 export class AdminDashboardModule {}

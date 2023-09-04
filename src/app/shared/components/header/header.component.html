@@ -2,8 +2,8 @@
 <div id="topbar" class="d-flex align-items-center fixed-top">
   <div class="container d-flex justify-content-between">
     <div class="contact-info d-flex align-items-center">
-      <i class="bi bi-envelope"></i> <a href="mailto:contact@example.com">contact@example.com</a>
-      <i class="bi bi-phone"></i> +1 5589 55488 55
+      <i class="bi bi-envelope"></i> <a href="mailto:contact@braintumorlock.com">contact@braintumorlock.com</a>
+      <i class="bi bi-phone"></i> +972 595214393
     </div>
     <div class="d-flex translate">
       <a href="#" onclick="doGTranslate('ru|en');return false;" title="English" class="gflag nturl notranslate mx-3 "
@@ -24,20 +24,25 @@
 <header id="header" class="fixed-top">
   <div class="container d-flex align-items-center">
 
-    <h1 class="logo me-auto"><a href="index.html">BrainTumorLock</a></h1>
+    <a class="me-auto" href=""><img src="assets/img/BrainTumorLock_Main_Logo_2400x1800-removebg-preview.png" width="280"
+        class="logo " alt=""></a>
     <!-- Uncomment below if you prefer to use an image logo -->
     <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
     <nav id="navbar" class="navbar order-last order-lg-0">
       <ul>
-        <li><a class="nav-link scrollto  " routerLink="">Home</a></li>
-        <li><a class="nav-link scrollto " routerLink="medical-guide">Medical Guide</a></li>
-        <li><a class="nav-link scrollto" routerLink="latest-research">Latest Research</a></li>
-        <li><a class="nav-link scrollto" routerLink="motivational-stories">Motivational Stories</a></li>
-        <li><a class="nav-link scrollto" routerLink="tumor-examination">Tumor Examination</a></li>
-        <li><a class="nav-link scrollto" routerLink="medications">Medications</a></li>
-        <li><a class="nav-link scrollto" routerLink="about">About</a></li>
-        <li><a class="nav-link scrollto" routerLink="contact">contact</a></li>
+        <li><a class="nav-link scrollto active  " [class.active]="router.url==='/'" routerLink="/">Home</a></li>
+        <li><a class="nav-link scrollto " routerLink="/medical-guide" [routerLinkActive]="['active']">Medical Guide</a>
+        </li>
+        <li><a class="nav-link scrollto" href="Articles and research" [routerLinkActive]="['active']">Articles and
+            research</a></li>
+        <li><a class="nav-link scrollto" routerLink="motivational-stories" [routerLinkActive]="['active']">Motivational
+            Stories</a></li>
+        <li><a class="nav-link scrollto" href="http://localhost:8080/">Tumor
+            Examination</a></li>
+        <li><a class="nav-link scrollto" routerLink="medications" [routerLinkActive]="['active']">Medications</a></li>
+        <li><a class="nav-link scrollto" routerLink="about" [routerLinkActive]="['active']">About</a></li>
+        <li><a class="nav-link scrollto" routerLink="contact" [routerLinkActive]="['active']">contact</a></li>
 
       </ul>
       <i class="bi bi-list mobile-nav-toggle"></i>

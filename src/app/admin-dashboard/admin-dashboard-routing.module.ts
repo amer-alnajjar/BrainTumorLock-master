@@ -4,6 +4,9 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { AppointmentComponent } from './components/appointment/appointment.component';
 import { AdminComponent } from './components/admin/admin.component';
 import { CommunicationRequestsComponent } from './components/communication-requests/communication-requests.component';
+import { BlogsComponent } from './components/blogs/list-blogs/blogs.component';
+import { AddBlogsComponent } from './components/blogs/add-blogs/add-blogs.component';
+import { UbdateBlogsComponent } from './components/blogs/ubdate-blogs/ubdate-blogs.component';
 
 const routes: Routes = [
   {
@@ -19,6 +22,18 @@ const routes: Routes = [
   {
     path: 'communication-requests',
     component: CommunicationRequestsComponent,
+  },
+   {
+    path: 'blogs',
+    component: BlogsComponent,
+  },
+    {
+    path: 'add-blogs',
+    component: AddBlogsComponent,
+  },
+      {
+    path: 'ubdate-blogs/:id',
+    component: UbdateBlogsComponent,
   },
 ];
 
